@@ -1,0 +1,8 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="13.89" color="white"/>
+    <vType id="emergency" accel="3.5" decel="5" length="6" color="red" guiShape="emergency"/>
+
+    <route id="loop" edges="E1 E2 E3 E4"/>
+
+    <flow id="f1" type="car" beg="0" end="1000" number="100" route="loop"/>
+</routes>
